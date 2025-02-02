@@ -3,6 +3,14 @@
   padding: 0px;
 }
 /* 1 section of NAVBAR */
+nav{
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  width: 100%;
+  background-color:white ;
+  z-index: 100;
+}
 .header1 {
   background-color: #f5f5f5;
   display: flex;
@@ -43,7 +51,7 @@
   border: 1px solid #ededed;
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  padding: 20px 10%;
 }
 .head-right {
   display: flex;
@@ -80,10 +88,20 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  color: #666666;
 }
 .cart {
   padding-left: 15px;
   display: flex;
   align-items: center;
   justify-content: center;
+  color: #666666;
+}
+
+ /* 3 section of NAVBAR  */
+.header3{
+  padding: 15px 10%;
+  border-bottom: 1px solid #ededed;
+  display: flex;
+  justify-content: space-between;
 }
