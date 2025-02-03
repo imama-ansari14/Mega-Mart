@@ -3,13 +3,14 @@
   padding: 0px;
 }
 /* 1 section of NAVBAR */
-nav{
-  position: fixed; 
-  top: 0; 
-  left: 0; 
+nav {
+  position: sticky;
+  top: 0;
+  left: 0;
   width: 100%;
-  background-color:white ;
-  z-index: 100;
+  height: 25%;
+  background-color: white;
+  z-index: 10;
 }
 .header1 {
   background-color: #f5f5f5;
@@ -98,10 +99,235 @@ nav{
   color: #666666;
 }
 
- /* 3 section of NAVBAR  */
-.header3{
+/* 3 section of NAVBAR  */
+.header3 {
   padding: 15px 10%;
   border-bottom: 1px solid #ededed;
   display: flex;
   justify-content: space-between;
+}
+
+/* HERO SECTION  */
+.card {
+  background-color: #212844;
+  color: White;
+  font-family: sans-serif;
+  padding: 30px 5%;
+  margin: 20px 10%;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.card h5 {
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 60px;
+}
+.card h1 {
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 60px;
+}
+.card h4 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 60px;
+}
+.img-cont {
+  position: relative;
+  width: 50%;
+  height: 32vh;
+  background-image: url(images/blue\ design.png);
+}
+.hero-watch {
+  position: absolute;
+  left: 8em;
+  height: fit-content;
+  display: block;
+  max-height: auto;
+  width: 19vw;
+  height: 36vh;
+}
+.arrow {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.right {
+  right: -50px;
+}
+.left {
+  left: -50px;
+}
+/* SMART PHONE SECTION  */
+.phones {
+  margin: 80px 10%;
+}
+.phones-head {
+  border-bottom: 1px solid #bfbebe;
+  display: flex;
+  justify-content: space-between;
+}
+.phones h3 {
+  color: #666666;
+  border-bottom: 3px solid #008ecc;
+}
+.phones span {
+  color: #008ecc;
+}
+.view {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+.phimg {
+  margin: 30px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* TOP CATEGORIES  */
+.top-cat {
+  margin: 80px 10%;
+}
+.top-head {
+  border-bottom: 1px solid #bfbebe;
+  display: flex;
+  justify-content: space-between;
+}
+.top-head h3 {
+  color: #666666;
+  border-bottom: 3px solid #008ecc;
+}
+.top-head span {
+  color: #008ecc;
+}
+.view {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+.topimg {
+  margin: 30px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+/* ELECTRONICS BRAND  */
+.electronics {
+  margin: 80px 10%;
+}
+.elec-brand {
+  border-bottom: 1px solid #bfbebe;
+  display: flex;
+  justify-content: space-between;
+}
+.electronics h3 {
+  color: #666666;
+  border-bottom: 3px solid #008ecc;
+}
+.electronics span {
+  color: #008ecc;
+}
+.view {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+.elecimg {
+  margin: 30px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.elecimg img {
+  width: 25vw;
+}
+
+/* DAILY ESSENTIALS */
+.dailyess {
+  margin: 80px 10%;
+}
+.daily-ess {
+  border-bottom: 1px solid #bfbebe;
+  display: flex;
+  justify-content: space-between;
+}
+.daily-ess h3 {
+  color: #666666;
+  border-bottom: 3px solid #008ecc;
+}
+.daily-ess span {
+  color: #008ecc;
+}
+.view {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+.grocimg {
+  margin: 30px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.grocimg img {
+  width: 187px;
+}
+
+/* FOOTER SECTION  */
+footer {
+  background-color: #008ecc;
+  height: 60vh;
+  width: 100%;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1200px;
+  flex-wrap: wrap;
+  margin: 10%;
+  padding: 30px 0px;
+  color: white;
+  line-height: 35px;
+}
+
+.footer-section {
+  width: 30%;
+}
+.apple-store {
+  width: 170px;
+}
+.google-play {
+  width: 150px;
+}
+
+.footer-section {
+  width: 30%;
+}
+.copyright{text-align: center;
+  padding: 15px;
+  font-size: 20px;
+  border-top:1px solid #0075b2;
+  margin-top: 35px;
+}
+
+
+/* MEDIA QUERY  */
+@media only screen and (min-width: 1200px) and (max-width: 1300px) {
+  .signup {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0px;
+  }
+  .head-left {
+    padding: 0px;
+    margin: 1px;
+  }
+  .card h1 {
+    font-weight: 400;
+    font-size: 35px;
+  }
+  .img-cont {
+    width: 16vw;
+  }
 }
