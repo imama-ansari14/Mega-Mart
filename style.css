@@ -1,6 +1,7 @@
 * {
   margin: 0px;
   padding: 0px;
+  font-family: sans-serif;
 }
 /* 1 section of NAVBAR */
 nav {
@@ -265,13 +266,190 @@ nav {
   flex-direction: row;
   align-items: flex-end;
 }
-.grocimg {
-  margin: 30px 0px;
+
+.groc-img {
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #666666;
+ margin: 30px 0px;
+}
+
+.groc1 {
+  background-color: #f5f5f5;
+  width: 187px;
+  height: 208px;
+  border-radius: 20px;
+  margin:0px 10px;
+}
+
+.groc1 img {
+  width: 183px;
+  height: 122px;
   display: flex;
   justify-content: space-between;
+
 }
-.grocimg img {
+.groc1 h3 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Verdana, sans-serif;
+  color: #222222;
+  display: flex;
+  justify-content: center;
+}
+
+.groc1 p {
+  color: #666666;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+/*2 card*/
+.groc2 {
+  background-color: #f5f5f5;
   width: 187px;
+  height: 208px;
+  border-radius: 20px;
+  margin:0px 10px;
+}
+
+.groc2 img {
+  width: 183px;
+  height: 122px;
+}
+
+.groc2 h3 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #222222;
+  display: flex;
+  justify-content: center;
+}
+
+.groc2 p {
+  color: #666666;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+/*3*/
+.groc3 {
+  background-color: #f5f5f5;
+  width: 187px;
+  height: 208px;
+  border-radius: 20px;
+  margin:0px 10px;
+}
+
+.groc3 img {
+  width: 183px;
+  height: 122px;
+}
+
+.groc3 p {
+  color: #666666;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.groc3 h3 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #222222;
+  display: flex;
+  justify-content: center;
+}
+/*4*/
+.groc4 {
+  background-color: #f5f5f5;
+  width: 187px;
+  height: 208px;
+  border-radius: 20px;
+  margin:0px 10px;
+}
+
+.groc4 img {
+  width: 183px;
+  height: 122px;
+}
+
+.groc4 p {
+  color: #666666;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+}
+.groc4 h3 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #222222;
+  display: flex;
+  justify-content: center;
+}
+
+/*5*/
+.groc5 {
+  background-color: #f5f5f5;
+  width: 187px;
+  height: 208px;
+  border-radius: 20px;
+  margin:0px 10px;
+}
+
+.groc5 img {
+  width: 183px;
+  height: 122px;
+}
+
+.groc5 p {
+  color: #666666;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+}
+.groc5 h3 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #222222;
+  display: flex;
+  justify-content: center;
+}
+
+/*6*/
+.groc6 {
+  background-color: #f5f5f5;
+  width: 187px;
+  height: 208px;
+  border-radius: 20px;
+  margin:0px 10px;
+}
+
+.groc6 img {
+  width: 183px;
+  height: 122px;
+}
+
+.groc6 p {
+  color: #666666;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+}
+.groc6 h3 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #222222;
+  display: flex;
+  justify-content: center;
 }
 
 /* FOOTER SECTION  */
@@ -279,6 +457,7 @@ footer {
   background-color: #008ecc;
   height: 60vh;
   width: 100%;
+  font-family: sans-serif;
 }
 .container {
   display: flex;
@@ -304,13 +483,14 @@ footer {
 .footer-section {
   width: 30%;
 }
-.copyright{text-align: center;
+.copyright {
+  text-align: center;
   padding: 15px;
   font-size: 20px;
-  border-top:1px solid #0075b2;
+  border-top: 1px solid #0075b2;
   margin-top: 35px;
+  background-color: ;
 }
-
 
 /* MEDIA QUERY  */
 @media only screen and (min-width: 1200px) and (max-width: 1300px) {
