@@ -17,7 +17,7 @@ nav {
   background-color: #f5f5f5;
   display: flex;
   justify-content: space-between;
-  padding: 8px 10%; 
+  padding: 8px 10%;
 }
 #right-sec {
   color: #666666;
@@ -141,7 +141,6 @@ nav {
   height: 32vh;
   background-image: url(images/blue\ design.png);
   background-repeat: no-repeat;
-
 }
 .hero-watch {
   position: absolute;
@@ -151,7 +150,6 @@ nav {
   max-height: auto;
   width: 19vw;
   height: 36vh;
-
 }
 .arrow {
   cursor: pointer;
@@ -189,7 +187,7 @@ nav {
 .phimg {
   margin: 30px 0px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 /* TOP CATEGORIES  */
@@ -216,7 +214,7 @@ nav {
 .topimg {
   margin: 30px 0px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 /* ELECTRONICS BRAND  */
 .electronics {
@@ -242,7 +240,7 @@ nav {
 .elecimg {
   margin: 30px 0px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .elecimg img {
   width: 25vw;
@@ -273,6 +271,7 @@ nav {
 .groc-img {
   display: flex;
   justify-content: center;
+  justify-content: space-evenly;
   font-family: Arial, Helvetica, sans-serif;
   color: #666666;
   margin: 30px 0px;
@@ -459,8 +458,11 @@ footer {
   height: 60vh;
   width: 100%;
   font-family: sans-serif;
+  /* display: flex;
+  justify-content: space-evenly; */
 }
 .container {
+ 
   display: flex;
   justify-content: space-around;
   max-width: 1200px;
@@ -468,11 +470,11 @@ footer {
   margin: 10%;
   padding: 30px 0px;
   color: white;
-  line-height: 35px;
+  line-height: 45px;
 }
 
 .footer-section {
-  width: 30%;
+  width: 100%;
 }
 .apple-store {
   width: 170px;
@@ -481,9 +483,6 @@ footer {
   width: 150px;
 }
 
-.footer-section {
-  width: 30%;
-}
 .copyright {
   text-align: center;
   padding: 15px;
@@ -494,43 +493,60 @@ footer {
 
 /* MEDIA QUERY  */
 /* Tablets and larger screens  */
- @media (min-width: 768px) and (max-width: 1074px)
-  {
+@media (min-width: 768px) and (max-width: 1074px) {
+  nav {
+    width: 330vw;
+    margin: 0%;
+  }
+  .card {
+    width: 250vw;
+    height: 40vh;
+    padding: 30px 5%;
+    margin: 20px 35%;
+  }
+  .text-cont h5 {
+    font-size: 4vw;
+  }
+  .text-cont h1 {
+    font-size: 8vw;
+  }
+  .text-cont h4 {
+    font-size: 5vw;
+  }
+  .img-cont {
+    position: absolute;
+    left: 69em;
+    height: 49vh;
+  }
+  .hero-watch {
+    width: 45vw;
+    height: 48vh;
+  }
 
- nav{
-  width: 330vw;
-  margin: 0%;
- } 
- .card {
-  width: 250vw;
-  height: 40vh;
-  padding: 30px 5%;
-  margin: 20px 35%;
-}
-.text-cont h5 {
-  font-size: 4vw;
-}
-.text-cont h1 {
-  font-size: 8vw;
-}
-.text-cont h4 {
-  font-size: 5vw;
-}
-.img-cont {
-display: flex;
-justify-content: end;
-/* align-items: flex-end; */
-height:49vh ;
+  .phones {
+    margin: 80px 35%;
+    width:250vw ;
+  }
+  .top-cat {
+    margin: 80px 35%;
+    width:250vw ;
+  }
+  .electronics {
+    margin: 80px 35%;
+    width:250vw ;
+  }
+  .dailyess {
+    margin: 80px 35%;
+    width:250vw ;
+  }
+  footer {
+    height: 190vh;
+    width:350vw;
 
-}
-.hero-watch {
-  position: absolute;
-  left: 8em;
-  height: fit-content;
-  display: block;
-  max-height: auto;
-  width:45vw;
-  height: 48vh;
-}
+  }
+
+  
+
+
 
 }
