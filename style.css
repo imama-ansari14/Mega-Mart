@@ -17,7 +17,7 @@ nav {
   background-color: #f5f5f5;
   display: flex;
   justify-content: space-between;
-  padding: 8px 10%;
+  padding: 8px 10%; 
 }
 #right-sec {
   color: #666666;
@@ -120,17 +120,17 @@ nav {
   align-items: center;
   position: relative;
 }
-.card h5 {
+.text-cont h5 {
   font-size: 25px;
   font-weight: 500;
   line-height: 60px;
 }
-.card h1 {
+.text-cont h1 {
   font-size: 45px;
   font-weight: 600;
   line-height: 60px;
 }
-.card h4 {
+.text-cont h4 {
   font-size: 20px;
   font-weight: 500;
   line-height: 60px;
@@ -140,6 +140,8 @@ nav {
   width: 50%;
   height: 32vh;
   background-image: url(images/blue\ design.png);
+  background-repeat: no-repeat;
+
 }
 .hero-watch {
   position: absolute;
@@ -149,6 +151,7 @@ nav {
   max-height: auto;
   width: 19vw;
   height: 36vh;
+
 }
 .arrow {
   cursor: pointer;
@@ -272,7 +275,7 @@ nav {
   justify-content: center;
   font-family: Arial, Helvetica, sans-serif;
   color: #666666;
- margin: 30px 0px;
+  margin: 30px 0px;
 }
 
 .groc1 {
@@ -280,7 +283,7 @@ nav {
   width: 187px;
   height: 208px;
   border-radius: 20px;
-  margin:0px 10px;
+  margin: 0px 10px;
 }
 
 .groc1 img {
@@ -288,7 +291,6 @@ nav {
   height: 122px;
   display: flex;
   justify-content: space-between;
-
 }
 .groc1 h3 {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -312,14 +314,13 @@ nav {
   width: 187px;
   height: 208px;
   border-radius: 20px;
-  margin:0px 10px;
+  margin: 0px 10px;
 }
 
 .groc2 img {
   width: 183px;
   height: 122px;
 }
-
 .groc2 h3 {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -342,7 +343,7 @@ nav {
   width: 187px;
   height: 208px;
   border-radius: 20px;
-  margin:0px 10px;
+  margin: 0px 10px;
 }
 
 .groc3 img {
@@ -371,7 +372,7 @@ nav {
   width: 187px;
   height: 208px;
   border-radius: 20px;
-  margin:0px 10px;
+  margin: 0px 10px;
 }
 
 .groc4 img {
@@ -400,7 +401,7 @@ nav {
   width: 187px;
   height: 208px;
   border-radius: 20px;
-  margin:0px 10px;
+  margin: 0px 10px;
 }
 
 .groc5 img {
@@ -429,7 +430,7 @@ nav {
   width: 187px;
   height: 208px;
   border-radius: 20px;
-  margin:0px 10px;
+  margin: 0px 10px;
 }
 
 .groc6 img {
@@ -489,25 +490,47 @@ footer {
   font-size: 20px;
   border-top: 1px solid #0075b2;
   margin-top: 35px;
-  background-color: ;
 }
 
 /* MEDIA QUERY  */
-@media only screen and (min-width: 1200px) and (max-width: 1300px) {
-  .signup {
-    font-size: 16px;
-    font-weight: 400;
-    padding: 0px;
-  }
-  .head-left {
-    padding: 0px;
-    margin: 1px;
-  }
-  .card h1 {
-    font-weight: 400;
-    font-size: 35px;
-  }
-  .img-cont {
-    width: 16vw;
-  }
+/* Tablets and larger screens  */
+ @media (min-width: 768px) and (max-width: 1074px)
+  {
+
+ nav{
+  width: 330vw;
+  margin: 0%;
+ } 
+ .card {
+  width: 250vw;
+  height: 40vh;
+  padding: 30px 5%;
+  margin: 20px 35%;
+}
+.text-cont h5 {
+  font-size: 4vw;
+}
+.text-cont h1 {
+  font-size: 8vw;
+}
+.text-cont h4 {
+  font-size: 5vw;
+}
+.img-cont {
+display: flex;
+justify-content: end;
+/* align-items: flex-end; */
+height:49vh ;
+
+}
+.hero-watch {
+  position: absolute;
+  left: 8em;
+  height: fit-content;
+  display: block;
+  max-height: auto;
+  width:45vw;
+  height: 48vh;
+}
+
 }
